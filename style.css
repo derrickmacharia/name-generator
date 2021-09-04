@@ -52,3 +52,16 @@ nav {
 }
 
 /*End of Home styling*/
+
+/*Form styling*/
+
+.form {
+    color: black;
+    text-align: center;
+    background-color: #882323;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.title1 {
+    padding: 2rem;
+}
