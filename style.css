@@ -10,7 +10,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+body{
+    background-color: #c4c4c4;
+}
 /*End of General styling*/
 
 /*Nav styling*/
