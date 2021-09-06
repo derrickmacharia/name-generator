@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Start linking-->
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--Java Script-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!--End of linking-->
     <title>Akan Names</title>
 </head>
@@ -42,47 +44,31 @@
 
     <!--form scetion-->
 
-    <div class="container form">
-        <div class="row title1">
-            <h2>Enter your details below</h2>
-        </div>
-        <form class="row gx-3 gy-2 align-items-center">
-            <div class="col-sm">
-                <h2>Day</h2>
-              <label class="visually-hidden" for="specificSizeInputName">Day</label>
-              <input type="text" class="form-control" id="specificSizeInputName" placeholder="Day">
-            </div>
-            <div class="col-sm">
-                <h2>Month</h2>
-                <label class="visually-hidden" for="specificSizeSelect">Preference</label>
-                <select class="form-select" id="specificSizeSelect">
-                  <option selected>Choose...</option>
-                  <option value="1">January</option>
-                  <option value="2">February</option>
-                  <option value="3">March</option>
-                  <option value="4">April</option>
-                  <option value="5">May</option>
-                  <option value="6">June</option>
-                  <option value="7">July</option>
-                  <option value="8">August</option>
-                  <option value="9">September</option>
-                  <option value="10">October</option>
-                  <option value="11">November</option>
-                  <option value="12">December</option>
-                </select>
-              </div>
-            <div class="col-sm">
-                <h2>Year</h2>
-              <label class="visually-hidden" for="specificSizeInputGroupUsername">Year</label>
-              <div class="input-group">
-                <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Year">
-              </div>
-            </div>
-        </form>
+    <div class="container">
+        <form action="#" id="akan">
+          <div class="form-group input1">
+            <input type="date" name="date" id="date" class="form-control" value="date">
+          </div>
+
+          <div class="form-group">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male" value="male">
+          </div>
+
+          <div class="form-group">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female" value="female">
+          </div>
         
-    </div>
+          <button class="btn btn-outline-danger">submit</button>
+        </form>
+    </div>  
 
     <!--End of form scetion-->
+    
+
+
+
 
 
     <script src="app.js"></script>
