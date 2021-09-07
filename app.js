@@ -4,11 +4,11 @@
 var male =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var female =["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 var cc,yy,mm,dd;
-
-var century = 19;
-var year = 94;
-var month = 10;
-var date = 14;
+var dateOfBirth = "1994-10-14"
+var century = dateOfBirth[0].concat(dateOfBirth[1])
+var year = dateOfBirth[0].concat(dateOfBirth[1])
+var month = dateOfBirth[0].concat(dateOfBirth[1])
+var date = dateOfBirth[0].concat(dateOfBirth[1])
 cc = century;
 yy = year;
 mm = month;
