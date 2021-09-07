@@ -10,7 +10,7 @@ This application helps the user to generate their name according Ghananian cultu
 * at https://derrickmacharia.github.io/name-generator/
 This application is not fully developed and can only be accessed via github or the link provided above .if any changes occur please contact
 ## Live link for Designed
-
+https://www.figma.com/file/tvDyzFXF3Fad7NNTftuBgx/Untitled?node-id=1%3A8
 
 ## Technologies Used
 The technologies used were HTML and CSS for styling, javascript to make it interactive and figma for design.
