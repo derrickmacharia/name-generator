@@ -12,6 +12,9 @@ This application is not fully developed and can only be accessed via github or t
 ## Live link for Designed
 https://www.figma.com/file/tvDyzFXF3Fad7NNTftuBgx/Untitled?node-id=1%3A8
 
+## Screenshot of website
+<img src="images/Screenshot from 2021-09-07 15-04-49.png" alt="">
+
 ## Technologies Used
 The technologies used were HTML and CSS for styling, javascript to make it interactive and figma for design.
 ## BDD
