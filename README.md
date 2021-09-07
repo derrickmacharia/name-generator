@@ -14,6 +14,11 @@ https://www.figma.com/file/tvDyzFXF3Fad7NNTftuBgx/Untitled?node-id=1%3A8
 
 ## Technologies Used
 The technologies used were HTML and CSS for styling, javascript to make it interactive and figma for design.
+## BDD
+* user add date of birth
+* selects gender
+* press the submit button
+* receive the Akan name as an alert
 ## Support and contact details
 For more information,comments or clarification contact on derrick.macharia@student.moringaschool.com
 ### License
